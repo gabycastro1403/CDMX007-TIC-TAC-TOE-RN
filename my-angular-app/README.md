@@ -1,4 +1,4 @@
-# Tic tac toe - React Native
+# Tic tac toe - Angular y Nativescript
 
 ## Tic-tac-toe 🧀
 
@@ -15,6 +15,13 @@ El diseño esta basado en los requerimientos del proyecto:
 * Imagenes atractivas para los usuarios 
 * Muestra a que jugador le toca tirar 
 * Muestra al ganador o empate en la pantalla de resultados
+
+## Herramientas
+Para construir este proyecto se utilizaron las siguientes herramientas:
+* Nativescript
+* Angular
+* PlayGround
+* TypeScript 
 
 
 
