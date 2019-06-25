@@ -1,0 +1,9 @@
+<ActionBar class="action-bar" title="Tic-Tac"></ActionBar>
+<grid-Layout>
+    <stackLayout>
+        <label text="Tic-Tac-Toe"></label>
+        <label class="win" [text]="this.gameService.win"></label>
+        <button [nsRouterLink]="['/item']" text="  Volver a Jugar" ></button>
+        <button [nsRouterLink]="['/items']"text="  Salir" ></button>
+    </stackLayout>
+</grid-Layout>

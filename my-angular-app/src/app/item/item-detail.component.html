@@ -1,0 +1,19 @@
+<ActionBar title="Game" class="action-bar"></ActionBar>
+
+  <label class="player" [text]="playerAct"></label>
+
+ <grid-layout rows="45, *,* , *" columns="auto,* , auto, *, auto,* ">
+
+   <button class="button-tic fontAwesomeIcons" row="1" col="0"[colSpan]="2"(tap)="getScore($event)" score="1"></button>
+   <button class="button-tic fontAwesomeIcons" row="1" col="2" [colSpan]="2" (tap)="getScore($event)" score="2"></button>
+   <button class="button-tic fontAwesomeIcons"row="1" col="4" [colSpan]="2" (tap)="getScore($event)" score="4"></button>
+
+   <button class="button-tic fontAwesomeIcons" row="2" col="0" [colSpan]="2" (tap)="getScore($event)" score="8"></button>
+   <button class="button-tic fontAwesomeIcons" row="2" col="2" [colSpan]="2" (tap)="getScore($event)" score="16"></button>
+   <button class="button-tic fontAwesomeIcons" row="2" col="4" [colSpan]="2" (tap)="getScore($event)" score="32"></button>
+
+   <button class="button-tic fontAwesomeIcons" row="3" col="0" [colSpan]="2" (tap)="getScore($event)" score="64"></button>
+   <button class="button-tic fontAwesomeIcons" row="3" col="2" [colSpan]="2" (tap)="getScore($event)" score="128"></button>
+   <button class="button-tic fontAwesomeIcons" row="3" col="4" [colSpan]="2" (tap)="getScore($event)" score="256"></button>
+  
+</grid-layout>
