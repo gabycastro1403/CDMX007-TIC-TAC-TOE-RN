@@ -1,11 +1,11 @@
 # Tic tac toe - React Native
 
-##Tic-tac-toe 🧀
+## Tic-tac-toe 🧀
 
-###Descripción
+### Descripción
 Tic Tac Toe es el clásico juego de gato diseñado para niños en edad pre-escolar, es simple intuitivo y fácil de usar .
 
-![inicio](./my-angular-app/src/assets/img/inicio.jpeg)
+![inicio](./app/src/assets/img/inicio.jpeg)
 
 ## Índice
 
