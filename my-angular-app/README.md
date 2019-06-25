@@ -7,6 +7,8 @@ Tic Tac Toe es el clásico juego de gato diseñado para niños en edad pre-escol
 
 ![inicio](./src/assets/img/ganador2.jpeg)
 
+[Video](https://youtu.be/eZchf8GTFEk)
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
